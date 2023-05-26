@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="exercice JS manipulation des checkbox et radio "/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+        <div class="form-row">
+            <input type="checkbox" name="consentement" id="consentement">J'accepte de recevoir les newsletter.
+        </div>
+        <div class="for-row">
+          Ainsi que des information partenaires ?
+          <input type="radio" name="btn-radion" value="oui" />Oui
+          <input type="radio" name="btn-radion" value="non" />Non
+        </div>
+        <div class="for-row">
+          <select name="pays" id="papys">
+            <option value="France">France</option>
+            <option value="Espagne">Espagne</option>
+            <option value="Italie">Italie</option>
+            <option value="Belgique">Belgique</option>
+          </select>
+          <span id="message"></span>
+        </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
